@@ -2,10 +2,10 @@ import { withSentryConfig } from '@sentry/nextjs';
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // For static site generation
-  // assetPrefix: './', // Ensure correct relative paths for static assets
-  trailingSlash: true, // Add trailing slash for static hosting compatibility
-  ignoreBuildErrors: true, // Ignore TypeScript and other build errors
+  // output: 'export', 
+ 
+  // trailingSlash: true, 
+  // ignoreBuildErrors: true
 };
 
 export default withSentryConfig(
