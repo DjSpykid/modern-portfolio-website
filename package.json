@@ -9,7 +9,6 @@
     "lint": "next lint",
     "deploy": "vercel --prod",
     "export": "next build && next export"
-
   },
   "dependencies": {
     "@react-three/drei": "^9.105.4",
