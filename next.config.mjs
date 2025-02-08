@@ -2,9 +2,9 @@ import { withSentryConfig } from '@sentry/nextjs';
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // output: 'export', 
- 
-  // trailingSlash: true, 
+  output: 'export', 
+
+  trailingSlash: true, 
   // ignoreBuildErrors: true
 };
 
